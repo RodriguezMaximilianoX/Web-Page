@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="bg-slate-50 h-screen">
+    <div className="bg-slate-50 h-100">
       <Navbar />
       <section id="about">
         <AboutMe />

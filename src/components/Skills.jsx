@@ -3,7 +3,6 @@ import HTML from '../assets/icons/html.svg'
 import CSS from '../assets/icons/css.svg'
 import JS from '../assets/icons/javascript.svg'
 import REACT from '../assets/icons/react.svg'
-import ANG from '../assets/icons/angular.svg'
 import TL from '../assets/icons/tailwind.svg'
 import BT from '../assets/icons/bootstrap.svg'
 import MUI from '../assets/icons/material-ui.svg'
@@ -32,10 +31,6 @@ export default function Skills() {
         <div className='flex flex-col items-center'>
           <img src={ REACT } alt='React' className='w-12'></img>
           <p className='text-center'>React</p>
-        </div>
-        <div className='flex flex-col items-center'>
-          <img src={ ANG } alt='Angular' className='w-12'></img>
-          <p className='text-center'>Angular</p>
         </div>
         <div className='flex flex-col items-center'>
           <img src={ TL } alt='Tailwind' className='w-12'></img>
